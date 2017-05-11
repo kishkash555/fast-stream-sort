@@ -1,0 +1,16 @@
+{
+  "name": "fast-stream-sort",
+  "version": "1.0.0",
+  "description": "a transform stream for sorting, faster than sort-stream package",
+  "main": "index.js",
+  "repository": "https://github.com/kishkash555/fast-stream-sort.git",
+  "author": "kishkash555@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "stream-array": "^1.1.2",
+    "through": "^2.3.8"
+  },
+  "scripts": {
+	"test": "node testTransform.js"
+  }
+}
